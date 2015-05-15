@@ -1,4 +1,25 @@
 
+Bookstore Made in Drupal
+Abeer Khakwani
+
+Contact Page isn't working
+##for diane's grading:
+
+db name: abeer
+db username: abeer
+db pass: abeer
+
+site username: abeer
+site pass: abeer
+
+
+##STANDARD DRUPAL README
+
+
+
+
+
+
 CONTENTS OF THIS FILE
 ---------------------
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -19,3 +20,26 @@ class views_handler_field_comment_depth extends views_handler_field {
     return count(explode('.', $comment_thread)) - 1;
   }
 }
+=======
+<?php
+
+/**
+ * @file
+ * Definition of views_handler_field_comment_depth.
+ */
+
+/**
+ * Field handler to display the depth of a comment.
+ *
+ * @ingroup views_field_handlers
+ */
+class views_handler_field_comment_depth extends views_handler_field {
+  /**
+   * Work out the depth of this comment
+   */
+  function render($values) {
+    $comment_thread = $this->get_value($values);
+    return count(explode('.', $comment_thread)) - 1;
+  }
+}
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

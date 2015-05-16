@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -11,3 +12,18 @@
 function views_test_schema() {
   return variable_get('views_test_schema', array());
 }
+=======
+<?php
+
+/**
+ * @file
+ * Install, update, and uninstall functions for the Views Test module.
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function views_test_schema() {
+  return variable_get('views_test_schema', array());
+}
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * The .garland.css file is intended to contain styles that override declarations
  * in the Garland theme.
@@ -11,3 +12,18 @@
 }
 
  /* @end */
+=======
+/**
+ * The .garland.css file is intended to contain styles that override declarations
+ * in the Garland theme.
+ */
+
+ /* @group Lists */
+
+.views-displays .secondary .action-list {
+  left: auto;
+  right: 1px;
+}
+
+ /* @end */
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

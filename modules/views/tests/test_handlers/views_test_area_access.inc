@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -26,3 +27,33 @@ class views_test_area_access extends views_handler_area {
   }
 
 }
+=======
+<?php
+
+/**
+ * @file
+ * Contains views_test_area_access
+ */
+
+class views_test_area_access extends views_handler_area {
+
+  /**
+   * {@inheritdoc}
+   */
+  function access() {
+    return $this->options['custom_access'];
+ }
+
+  /**
+   * {@inheritdoc}
+   */
+  function option_definition() {
+    $options = parent::option_definition();
+
+    $options['custom_access'] = array('default' => TRUE, 'bool' => TRUE);
+
+    return $options;
+  }
+
+}
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

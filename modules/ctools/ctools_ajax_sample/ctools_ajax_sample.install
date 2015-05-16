@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -17,3 +18,24 @@ function ctools_ajax_sample_install() {
 function ctools_ajax_sample_uninstall() {
 
 }
+=======
+<?php
+
+/**
+ * @file 
+ */
+
+/**
+ * Implementation of hook_install() 
+ */
+function ctools_ajax_sample_install() {
+
+}
+
+/**
+ * Implementation of hook_uninstall() 
+ */
+function ctools_ajax_sample_uninstall() {
+
+}
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

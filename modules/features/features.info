@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name = "Features"
 description = "Provides feature management for Drupal."
 core = 7.x
@@ -12,3 +13,19 @@ core = "7.x"
 project = "features"
 datestamp = "1428944073"
 
+=======
+name = "Features"
+description = "Provides feature management for Drupal."
+core = 7.x
+package = "Features"
+files[] = tests/features.test
+
+configure = admin/structure/features/settings
+
+; Information added by Drupal.org packaging script on 2015-04-13
+version = "7.x-2.5"
+core = "7.x"
+project = "features"
+datestamp = "1428944073"
+
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

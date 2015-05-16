@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -26,3 +27,33 @@ function ctools_stylizer_theme(&$theme) {
   );
 }
 
+=======
+<?php
+
+/**
+ * @file
+ * Contains theme registry and theme implementations for the content types.
+ */
+
+/**
+ * Implementation of hook_theme to load all content plugins and pass thru if
+ * necessary.
+ */
+function ctools_stylizer_theme(&$theme) {
+  $theme['ctools_stylizer_color_scheme_form'] = array(
+    'render element' => 'form',
+    'file' => 'includes/stylizer.inc',
+  );
+
+  $theme['ctools_stylizer_preview_form'] = array(
+    'render element' => 'form',
+    'file' => 'includes/stylizer.inc',
+  );
+
+  $theme['ctools_style_icon'] = array(
+    'variables' => array('image' => NULL, 'title' => NULL),
+    'file' => 'includes/stylizer.inc',
+  );
+}
+
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

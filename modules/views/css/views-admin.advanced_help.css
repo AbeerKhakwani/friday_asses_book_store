@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * The .advanced_help.css file is intended to contain styles that override declarations
  * in the Advanced Help module.
@@ -22,3 +23,29 @@
 .views-ui-display-tab-bucket .icon-unlinked {
   background-position: 6px -193px; /* LTR */
 }
+=======
+/**
+ * The .advanced_help.css file is intended to contain styles that override declarations
+ * in the Advanced Help module.
+ */
+
+/**
+ * Adjust the advanced help icons
+ */
+.views-ui-display-tab-bucket .advanced-help-link {
+  padding: 0;
+  margin: 5px 3px 0px 6px; /* LTR */
+}
+
+.views-ui-display-tab-bucket .icon-text {
+  padding-left: 25px; /* LTR */
+}
+
+.views-ui-display-tab-bucket .icon-linked {
+  background-position: 6px -151px; /* LTR */
+}
+
+.views-ui-display-tab-bucket .icon-unlinked {
+  background-position: 6px -193px; /* LTR */
+}
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

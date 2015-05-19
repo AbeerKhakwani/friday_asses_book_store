@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * @file
@@ -5,3 +6,12 @@
  */
 
 include_once 'book_review.features.inc';
+=======
+<?php
+/**
+ * @file
+ * Code for the Book Review feature.
+ */
+
+include_once 'book_review.features.inc';
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

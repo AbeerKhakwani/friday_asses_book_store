@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -31,3 +32,38 @@ abstract class ViewsPluginStyleTestBase extends ViewsSqlTest {
   }
 
 }
+=======
+<?php
+
+/**
+ * @file
+ * Definition of ViewsPluginStyleTestBase.
+ */
+
+/**
+ * Provides a base foundation for testing style plugins.
+ */
+abstract class ViewsPluginStyleTestBase extends ViewsSqlTest {
+
+  /**
+   * Stores the SimpleXML representation of the output.
+   *
+   * @var SimpleXMLElement
+   */
+  protected $elements;
+
+  /**
+   * Stores a view output in the elements.
+   */
+  function storeViewPreview($output) {
+    $htmlDom = new DOMDocument();
+    @$htmlDom->loadHTML($output);
+    if ($htmlDom) {
+      // It's much easier to work with simplexml than DOM, luckily enough
+      // we can just simply import our DOM tree.
+      $this->elements = simplexml_import_dom($htmlDom);
+    }
+  }
+
+}
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name = Site Configuration
 description = Default info
 core = 7.x
@@ -12,3 +13,19 @@ features[variable][] = site_frontpage
 features[variable][] = site_name
 features[variable][] = site_slogan
 features[variable][] = theme_default
+=======
+name = Site Configuration
+description = Default info
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = site_configuration
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = site_frontpage
+features[variable][] = site_name
+features[variable][] = site_slogan
+features[variable][] = theme_default
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

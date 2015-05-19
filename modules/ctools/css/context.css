@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ctools-context-holder .ctools-context-title {
   float: left;
   width: 49%;
@@ -8,3 +9,15 @@
   float: right;
   width: 49%;
 }
+=======
+.ctools-context-holder .ctools-context-title {
+  float: left;
+  width: 49%;
+  font-style: italic;
+}
+
+.ctools-context-holder .ctools-context-content {
+  float: right;
+  width: 49%;
+}
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc

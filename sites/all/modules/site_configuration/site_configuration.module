@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * @file
@@ -5,3 +6,12 @@
  */
 
 include_once 'site_configuration.features.inc';
+=======
+<?php
+/**
+ * @file
+ * Code for the Site Configuration feature.
+ */
+
+include_once 'site_configuration.features.inc';
+>>>>>>> 6d2bfc44ff0188b46711530fc6441339db8d58cc
